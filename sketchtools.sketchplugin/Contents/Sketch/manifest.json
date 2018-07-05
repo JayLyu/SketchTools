@@ -1,0 +1,43 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "identifier": "my-command-plugin",
+  "icon": "icon.png",
+  "version": "0.0.1",
+  "disableCocoaScriptPreprocessor": true,
+  "commands": [
+    {
+      "name": "Page Names",
+      "identifier": "myplugin.pagenames",
+      "script": "PageNames.js"
+    },
+    {
+      "name": "Rotate Artboart",
+      "identifier": "myplugin.rotateartboart",
+      "script": "RotateArtboart.js"
+    },
+    {
+      "name": "Fix Pingfang",
+      "identifier": "myplugin.fixpingfang",
+      "script": "FixPingfang.js"
+    },
+    {
+      "name": "Create Vetical Guides",
+      "identifier": "myplugin.createveticalguides",
+      "script": "CreateVeticalGuides.js"
+    }
+  ],
+  "menu": {
+    "title": "000000",
+    "items": [
+      "myplugin.pagenames",
+      "myplugin.rotateartboart",
+      "myplugin.fixpingfang",
+      "myplugin.createveticalguides"
+    ]
+  },
+  "name": "SketchTools",
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "lyujie",
+  "authorEmail": "86656944@qq.com"
+}
