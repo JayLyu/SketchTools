@@ -7,6 +7,11 @@
   "disableCocoaScriptPreprocessor": true,
   "commands": [
     {
+      "name": "Download UI Kit",
+      "identifier": "myplugin.uikit",
+      "script": "uikit.js"
+    },
+    {
       "name": "Page Names",
       "identifier": "myplugin.pagenames",
       "script": "PageNames.js"
@@ -30,6 +35,7 @@
   "menu": {
     "title": "000000",
     "items": [
+      "myplugin.uikit",
       "myplugin.pagenames",
       "myplugin.rotateartboart",
       "myplugin.fixpingfang",
